@@ -4,3 +4,23 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+.theme-dark {
+    --text-color: #00CC14;
+    --accent-color: rgb(var(--text-color), 0.6);
+    --main-bg-color: #000;
+    --accent-bg-color: ;
+
+    --main-font: 'Inter Variable';
+    --accent-font: 'PressStart2P Regular';
+}
+
+.theme-light {
+    --text-color: #000;
+    --accent-color: rgba(#000, 0.6);
+    --main-bg-color: #FFF;
+    --accent-bg-color: ;
+
+    --main-font: 'Inter Variable';
+    --accent-font: 'PressStart2P Regular';
+}
